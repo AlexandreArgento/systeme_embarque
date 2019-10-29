@@ -16,4 +16,13 @@
 ## Question 3 :
 
 - Qu'est ce qu'une librairie partagée ?
-<p><p>
+<p>Une librairie partagée n'est chargée que lorsqu'elle est appelée par un programme. Cela permet d'économiser en mémoire et de ne pas surcharger la mémoire avec des librairies inutilisées. <p>
+
+## Question 4 :
+- Donnez un exemple de fichier C et la ligne de commande correspondante pour obtenir un binaire exécutable (un hello world par exemple).
+
+<p>Pour obtenir un binaire exécutable du fichier hello_world.c on peut écrire la ligne de code suivante dans la ligne de commande : <p>
+<p>gcc hello_world.c -o hello_world.o<p>
+  
+ 
+## question 5 :
