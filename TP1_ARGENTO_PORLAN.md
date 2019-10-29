@@ -38,6 +38,11 @@
 - Cette commande permet
 <p> Au bout de quelques secondes nous avons un message d'erreur : "segmentation fault" qui veut dire que le programme pointe vers une case mémoire non attribuée.<p>
   
-## Question 2 :
+## Question 2 : Quel signal a reçu le processus pour se terminer ainsi? Comment vérifiez vous le numéro du signal reçu?
 
-<p>
+<p> En activant la génération d'un fichier core et à l'aide de gdb on obtient le nom du signal responsable de l'erreur. Ici c'est SIGSEGV <p>
+  
+## Question 3 : Grâce à GDB et au fichier core généré, analysez la source du problème du binaire gps. Quelle partie du code est fausse? Pourquoi?
+
+<p>La commande run essaye d'appeler une librairie partagée "libptmx.so" qui n'existe pas dans le dossier gps. "No such file or directory".<p>
+  
