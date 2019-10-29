@@ -13,7 +13,7 @@
 - Quel compilateur est utilisé ici?
   <p>Comme on peut le voir dans le makefile du dossier gps/src/lib/ptmx, à la ligne 2 on définit le compilateur qui est gcc et il est appelé à la ligne 5.<p>
   
-  ## Question 3 :
+## Question 3 :
 
 - Qu'est ce qu'une librairie partagée ?
 <p><p>
