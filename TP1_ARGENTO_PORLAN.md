@@ -26,3 +26,18 @@
   
  
 ## question 5 :
+
+
+# Partie 2 :
+
+## Question 1 :
+
+<p>$ sh run.sh<p>
+<p>PTTY: /dev/pts/X<p>
+  
+- Cette commande permet
+<p> Au bout de quelques secondes nous avons un message d'erreur : "segmentation fault" qui veut dire que le programme pointe vers une case mémoire non attribuée.<p>
+  
+## Question 2 :
+
+<p>
