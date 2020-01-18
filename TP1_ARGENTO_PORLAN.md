@@ -3,7 +3,7 @@
 ## Question 1 :
 
 - Qu'est ce qu'un Makefile?
-  <p>Makefile permet d'automatiser l'exécution de commandes terminales. Il vérifie que les cibles sont à jour avant d'éxécuter les instructions données.<p>
+  <p>Makefile permet d'automatiser l'exécution de commandes terminales. Il vérifie que les cibles soient à jour avant d'éxécuter les instructions données.<p>
   
 - À quoi sert make?
   <p>make permet de lancer le makefile du dossier courant. On peut voir à l'intérieur du makefile donné qu'il appelle d'autre makefile situées dans d'autres dossiers en se déplacant à l'intérieur du fichier (commande cd) et en éxécutant le nouveau makefile du dossier associé (&& make).<p>
